@@ -34,6 +34,20 @@ function CheckBox(props) {
 - ```useState``` 로 상태값을 초기화합니다.
 - ```toggleCheck``` 함수로 ```isChecked```의 상태를 바꿉니다.
 - ```img``` 안의 값을 식을 통해 변경합니다.
+
+```jsx
+function App() {
+  return (
+    <div className="App">
+      <h1>오늘의 할 일</h1>
+      <CheckBox label="리액트 숙제 체크박스 만들기" />
+      <CheckBox label="맛있는 저녁먹기" />
+      <CheckBox label="끝내주게 잠자기" />
+    </div>
+  );
+}
+```
+- ```props.label```을 통해서 문단의 내용을 변경합니다.
 ---
 ## 어려웠던 점과 느낀 점
 - 리액트 환경설정을 하는데 오히려 시간이 더 오래 걸렸습니다.
