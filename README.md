@@ -7,6 +7,7 @@
 ## 체크박스 만들기
 - 체크박스 이미지를 누르면 토글할 수 있도록 만들었습니다.
 - 체크박스 이미지은 마켓칼리의 체크박스를 사용하였습니다.
+  - 피그마 링크 https://www.figma.com/file/hBaBulfEX6K9M2T8QqciWw/%EC%B2%B4%ED%81%AC%EB%B0%95%EC%8A%A4?type=design&node-id=0-1&mode=design&t=unmWIRQ08vjXs6Th-0
 
 ### 체크박스 코드설명
 ```jsx
